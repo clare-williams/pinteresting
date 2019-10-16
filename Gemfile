@@ -16,6 +16,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
 gem 'jquery-rails'
 gem 'sassc-rails', '>= 2.1.0'
+gem 'devise', '~> 4.7', '>= 4.7.1'
 
 group :development, :test do
     gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
