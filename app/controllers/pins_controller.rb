@@ -67,7 +67,7 @@ end
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def pin_params
-      params.require(:pin).permit(:description, :name)
+      params.require(:pin).permit(:description, :name, :image)
     end
 
  def correct_user 
